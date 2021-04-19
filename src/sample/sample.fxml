@@ -57,6 +57,9 @@
 <!--            </FXCollections>-->
 <!--        </items>-->
 <!--    </ComboBox>-->
+          
+          
+          <--  MAIN ISSUE IS HERE    -->
 
     <Slider GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="10" min="0" max="100"/>
     <TextField GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="5"/>
