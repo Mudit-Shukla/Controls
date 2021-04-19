@@ -1,0 +1,63 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.TableCell?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<?import java.lang.Number?>
+<?import javafx.scene.control.Slider?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="20" vgap="20" gridLinesVisible="true">
+<!--    <Button text="Click me">-->
+<!--        <graphic>-->
+<!--            <ImageView>-->
+<!--                <Image url = "@/toolbarButtonGraphics/general/TipOfTheDay16.gif"/>-->
+<!--            </ImageView>-->
+<!--        </graphic>-->
+<!--    </Button>-->
+
+<!--    <fx:define>-->
+<!--        <ToggleGroup fx:id="chooseAlphabet"/>-->
+<!--    </fx:define>-->
+
+<!--    <RadioButton text="A" GridPane.columnIndex="0" GridPane.rowIndex="0" toggleGroup="$chooseAlphabet"/>-->
+<!--    <RadioButton text="B" GridPane.columnIndex="1" GridPane.rowIndex="0" toggleGroup="$chooseAlphabet"/>-->
+<!--    <RadioButton text="C" GridPane.columnIndex="2" GridPane.rowIndex="0" toggleGroup="$chooseAlphabet"/>-->
+
+<!--    <ToggleButton text="good bye" GridPane.columnIndex="0" GridPane.rowIndex="0" toggleGroup="$chooseAlphabet" selected="true" prefWidth="80"/>-->
+<!--    <ToggleButton text="tata" GridPane.columnIndex="1" GridPane.rowIndex="0" toggleGroup="$chooseAlphabet" prefWidth="80"/>-->
+<!--    <ToggleButton text="khatm" GridPane.columnIndex="2" GridPane.rowIndex="0" toggleGroup="$chooseAlphabet" prefWidth="80"/>-->
+
+<!--    <TextField GridPane.rowIndex="0" GridPane.columnIndex="0"/>-->
+<!--    <PasswordField GridPane.rowIndex="0" GridPane.columnIndex="1"/>-->
+
+<!--    <ComboBox GridPane.rowIndex="0" GridPane.columnIndex="0">-->
+<!--        <items>-->
+<!--            <FXCollections fx:factory="observableArrayList">-->
+<!--&lt;!&ndash;                <String fx:value="option 1"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                <String fx:value="option 2"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                <String fx:value="option 3"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                <String fx:value="option 4"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                <String fx:value="option 5"/>&ndash;&gt;-->
+<!--                <Number fx:value="25.0"/>-->
+<!--                <Number fx:value="35.0"/>-->
+<!--                <Number fx:value="45.0"/>-->
+<!--                <Number fx:value="55.0"/>-->
+<!--                <Number fx:value="65.0"/>-->
+<!--            </FXCollections>-->
+<!--        </items>-->
+<!--    </ComboBox>-->
+
+    <Slider GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="10" min="0" max="100"/>
+    <TextField GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="5"/>
+</GridPane>
